@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\sakuraeditor]
+@="Open with Sakura"
+"Icon"="C:\\Program Files (x86)\\sakura\\sakura.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\sakuraeditor\command]
+@="\"C:\\Program Files (x86)\\sakura\\sakura.exe\" \"%1\""
